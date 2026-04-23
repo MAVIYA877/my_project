@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+/* NAV */
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    background:rgba(0,0,0,0.6);
+    backdrop-filter:blur(10px);
+}
+
+nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+/* HERO */
+section{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.name{
+    font-size:70px;
+    color:#00ffe5;
+    text-shadow:0 0 20px #00ffe5;
+}
+
+/* FORM */
+input, textarea{
+    width:250px;
+    margin:8px;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+}
+
+button{
+    padding:10px 15px;
+    background:#00ffe5;
+    border:none;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+/* CANVAS */
+#particles{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+/* LIGHT MODE */
+.light{
+    background:white;
+    color:black;
+}

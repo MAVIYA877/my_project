@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mohd Maviya Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<nav>
+    <h2>⚡ Maviya</h2>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <button onclick="toggleTheme()">🌙</button>
+    </div>
+</nav>
+
+<!-- FRONT PAGE -->
+<section id="home">
+    <div class="hero">
+        <h1>WELCOME TO</h1>
+        <h1 class="name">MOHD MAVIYA</h1>
+        <h3>PERSONAL PROJECT 🚀</h3>
+        <p id="typing"></p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="number" id="phone" placeholder="Phone">
+        <textarea id="msg" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="toast"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
